@@ -1,5 +1,0 @@
-D:\Works\exio-solution\single-sign-on-csharp\Azihub.SingleSignOn.Domain\Azihub.SingleSignOn.Domain\obj\Debug\net5.0\Azihub.SingleSignOn.Domain.csproj.AssemblyReference.cache
-D:\Works\exio-solution\single-sign-on-csharp\Azihub.SingleSignOn.Domain\Azihub.SingleSignOn.Domain\obj\Debug\net5.0\Azihub.SingleSignOn.Domain.GeneratedMSBuildEditorConfig.editorconfig
-D:\Works\exio-solution\single-sign-on-csharp\Azihub.SingleSignOn.Domain\Azihub.SingleSignOn.Domain\obj\Debug\net5.0\Azihub.SingleSignOn.Domain.AssemblyInfoInputs.cache
-D:\Works\exio-solution\single-sign-on-csharp\Azihub.SingleSignOn.Domain\Azihub.SingleSignOn.Domain\obj\Debug\net5.0\Azihub.SingleSignOn.Domain.AssemblyInfo.cs
-D:\Works\exio-solution\single-sign-on-csharp\Azihub.SingleSignOn.Domain\Azihub.SingleSignOn.Domain\obj\Debug\net5.0\Azihub.SingleSignOn.Domain.csproj.CoreCompileInputs.cache
