@@ -1,0 +1,66 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Mason Chase</Authors>
+    <Company>Azihub</Company>
+    <Product>Single Sign On Domain</Product>
+    <NoPackageAnalysis>true</NoPackageAnalysis>
+    <Summary>
+      Single Sign On Public API
+    </Summary>
+    <Description>
+      Domain Communication Model
+    </Description>
+    <Copyright>Azihub</Copyright>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+    <PackageProjectUrl>https://global-data.azihub.com</PackageProjectUrl>
+    <PackageIcon>sing-sign-on-icon.png</PackageIcon>
+    <PackageIconUrl />
+    <RepositoryUrl>https://github.com/azihub/global-data-csharp</RepositoryUrl>
+    <AssemblyVersion>0.1.0.0</AssemblyVersion>
+    <FileVersion>0.1.0.0</FileVersion>
+    <Version>0.1.0</Version>
+    <PackageReleaseNotes>Single Sign On Public API model and tests</PackageReleaseNotes>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Azihub.AppConsole.Base" Version="0.1.0" />
+    <PackageReference Include="Azihub.GlobalData.Base" Version="0.1.0" />
+    <PackageReference Include="Grpc.Core" Version="2.38.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+
+    <PackageReference Include="libphonenumber-csharp" Version="8.12.21" />
+
+    <PackageReference Include="protobuf-net.Grpc" Version="1.0.152" />
+
+    <PackageReference Include="System.ComponentModel.Annotations" Version="6.0.0-preview.4.21253.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="EmailTokens\Exceptions\" />
+    <Folder Include="KnowYourCustomer\Interfaces\" />
+    <Folder Include="KnowYourCustomer\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="DemoData\John.Doe.ID.Back.PNG">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="DemoData\John.Doe.ID.Front.PNG">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="..\LICENSE.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\sing-sign-on-icon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
