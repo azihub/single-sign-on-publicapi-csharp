@@ -16,10 +16,10 @@
     </Description>
     <Copyright>Azihub</Copyright>
     <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
-    <PackageProjectUrl>https://global-data.azihub.com</PackageProjectUrl>
+    <PackageProjectUrl>https://single-sign-on.azihub.com</PackageProjectUrl>
     <PackageIcon>sing-sign-on-icon.png</PackageIcon>
     <PackageIconUrl />
-    <RepositoryUrl>https://github.com/azihub/global-data-csharp</RepositoryUrl>
+    <RepositoryUrl>https://github.com/azihub/single-sign-on-publicapi-csharp</RepositoryUrl>
     <AssemblyVersion>0.1.0.0</AssemblyVersion>
     <FileVersion>0.1.0.0</FileVersion>
     <Version>0.1.0</Version>
